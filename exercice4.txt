@@ -1,0 +1,36 @@
+Exo 4: Ecrire un algorithme qui demande l’âge d’un enfant à l’utilisateur. Ensuite, 
+il l’informe de sa catégorie :
+"Poussin" de 6 à 7 ans
+"Pupille" de 8 à 9 ans
+"Minime" de 10 à 11 ans
+"Cadet" après 12 ans
+Peut-on concevoir plusieurs algorithmes équivalents menant à ce résultat ?
+
+
+Algorithme                Categorie_selon_age
+
+Variables
+                                  age : entier
+
+Début
+         
+        Ecrire(“Entrer votre age pour determiner voter catégorie”)
+        Lire(age)
+
+        Si (age > 5) Alors
+
+            selon (age) faire
+                cas    6..7 : Ecrire (“Poussin”)
+                cas    8..9 : Ecrire (“Pupille”)
+                cas 10..11 : Ecrire (“Minime”)
+            Autrement :
+                            Ecrire (“Cadet”)
+            Fin selon
+
+        Sinon 
+            Ecrire (“Vous n’êtes pas conçerné votre age n’est definit dans accuse catégorie”)
+        Fin is
+Fin
+
+
+Oui nous pouvons concevoir plusieurs algorithmes équivalents menant a ce resultant

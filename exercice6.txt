@@ -1,0 +1,27 @@
+Exo 6 : Ecrire un algorithme qui demande deux nombres à l’utilisateur 
+et l’informe ensuite si le produit est négatif ou positif 
+(on inclut cette fois le traitement du cas où le produit peut être nul). 
+Attention toutefois, on ne doit pas calculer le produit !
+
+
+Algorithme                Produit_positif_negatif_null
+
+Variables
+                                  n1, n2 : entier
+
+Début
+         
+             
+        Ecrire (“Entrer deux nombres n1 et n2”)
+        Lire(n1,n2)
+
+        Si (n1 > 0 et n2 > 0 ou n1 < 0 et n2 < 0) Alors
+             Ecrire (“le produit des deux nombres est positif ”)
+           Sinon 
+                Si (n1 > 0 et n2 < 0 ou n1 < 0 et n2 > 0)
+                  Ecrire (“le produit des deux nombres est negatif”)
+                 Fin si
+             Sinon
+                 Ecrire (“le produit des deux nombres est égal à 0”)
+        Fin si
+Fin

@@ -1,0 +1,23 @@
+Exo 5: Ecrire un algorithme qui demande un nombre à l’utilisateur, et l’informe ensuite si ce nombre est positif ou négatif (on inclut cette fois le traitement du cas où le nombre vaut zéro).
+
+
+Algorithme                Nombre_positif_negatif_nul
+
+Variables
+                                  nbre : entier
+
+Début
+         
+        Ecrire(“Entrer un nombre”)
+        Lire(nbre)
+
+        Si (nbre > 0) Alors
+              Ecrire (“Vous avez entrer un nombre positif”)
+            Sinon
+                 Si (nbre < 0) Alors 
+                     Ecrire (“Vous avez entrer un nombre négatif”)
+                 Fin si
+            Sinon 
+                Ecrire (“Vous avez entrer un nombre nul”)
+        Fin si
+Fin

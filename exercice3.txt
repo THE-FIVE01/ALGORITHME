@@ -1,0 +1,20 @@
+Exo 3: Ecrire un algorithme qui demande trois noms à l’utilisateur et l’informe 
+ensuite s’ils sont rangés ou non dans l’ordre alphabétique.
+
+
+Algorithme                Ordre_Alphabetique
+
+Variables
+                                  nom1, nom2, nom3 : chaine de caractères
+
+Début
+         
+        Ecrire(“Entrer trois noms”)
+        Lire(nom1, nom2, nom3)
+
+        Si (nom1 < nom2 et nom2 < nom3) Alors
+            Ecrire (“Noms rangés dans l’ordre alphabétique ”)
+        Sinon 
+            Ecrire (“Noms pas rangés dans l’ordre alphabétique”)
+        Fin si
+Fin
