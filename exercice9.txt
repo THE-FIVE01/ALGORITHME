@@ -4,7 +4,7 @@ Constantes
           n = 5
 variables
             tab_nom : tableau[1..n] de chaîne de caractères
-            i, cpt : entier
+            i, cpt1, cpt2, cpt3, cpt4, cpt5 : entier
 Début
 
     cpt <- 0
@@ -13,6 +13,9 @@ Début
         Lire(tab_nom[i])
         
         pour i <- 1 à longeur(tab_nom[i])
+            Si (i = 1) Alors
+                milieu(tab_nom[1],i,1)
+                cpt += 1
     Fin Pour
 
 Fin
