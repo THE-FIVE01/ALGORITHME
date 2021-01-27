@@ -30,6 +30,9 @@ Début
                 cas 2 :
                     Ecrire("Désoler vous ne pouvez pas faire des omelettes sans casser et battre les oeufs.")
             Fin Selon
+        cas 'N' : 
+            Ecrire("Désoler pour faire des omelettes il vous faut des oeufs et de l'huile Monsieur !.")
+            Ecrire("Opération annuler.")
     Fin Selon
 
 Fin
