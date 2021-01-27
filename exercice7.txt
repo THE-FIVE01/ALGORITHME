@@ -13,7 +13,7 @@ Début
         bc <- a ^ 2
         ab <- b ^ 2
         ac <- c ^ 2
-        Si (bc = ab + ac ) Alors
+        Si (bc = ab + ac  ou ab = bc + ac ou ac = ab + bc) Alors
             Ecrire("Ce Triangle est un rectangle")
         Sinon
             Ecrire("Ce triangle n'est pas un rectangle")
