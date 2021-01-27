@@ -1,1 +1,23 @@
-Algorithme        
+Algorithme     Triangle_Rectangle
+
+variables      
+             ca, cb, cc, a, b, c : entier
+
+Début
+    Ecrire("Bienvenue à vous, pour vérifier si un triangle est un rectangle : ")
+    Ecrire("Entrer une valeur pour chaque côté du triangle 'a,b,c'")
+    Lire(a,b,c)
+    Si (a < 0 ou b < ou c < 0) Alors
+        Ecrire("Erreur entrer des valeurs positives")
+    Sinon
+        bc <- a ^ 2
+        ab <- b ^ 2
+        ac <- c ^ 2
+        Si (bc = ab + ac ) Alors
+            Ecrire("Ce Triangle est un rectangle")
+        Sinon
+            Ecrire("Ce triangle n'est pas un rectangle")
+        Fin Si
+    Fin Si
+        
+Fin 
