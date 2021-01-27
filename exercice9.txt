@@ -11,7 +11,7 @@ Début
     Pour i <- 1 à n Faire
         Ecrire("Entrer le nom n ",i)
         Lire(tab_nom[i])
-
+        
         pour i <- 1 à longeur(tab_nom[i])
     Fin Pour
 
