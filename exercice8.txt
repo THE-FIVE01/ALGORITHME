@@ -1,0 +1,35 @@
+Algorithme          Faire_des_omelettes
+
+variables    
+                  choix : caractère
+                t1, t2, : entiers
+Début
+
+    Ecrire("Bienvenue à vous, pour faire des omellets vous devez avoir des oufs et de l'huile.")
+    Ecrire("Entrer O (oui) pour faire des omelettes ou N (non) pour annuler l'opération")
+    Lire(choix)
+
+    Selon (choix) Faire 
+        cas 'O' :
+            Ecrire("Ecrire Félicitation, vous pouvez  à présent passer au mélange.")
+            Ecrire("Entrer 1 pour casser et battre les oeufs ou 2 pour Annuler l'opération.")
+            Lire(t1)
+
+            Selon (t1) Faire
+                cas 1 :
+                    Ecrire("Les oeufs sont cassés et battus")
+                    Ecrire("Entrer 1 pour griller les oeufs battus ou 2 pour annuler l'opération.")
+                    Lire(t2)
+
+                    Selon (t2) Faire
+                        cas 1 :
+                            Ecrire("Félicitation vous avez fait des omelettes, bon appétit !")
+                        cas 2 :
+                            Ecrire("Désoler vous ne pouvez pas faire des omelettes sans griller les oeufs battus.")
+                    Fin Selon
+                cas 2 :
+                    Ecrire("Désoler vous ne pouvez pas faire des omelettes sans casser et battre les oeufs.")
+            Fin Selon
+    Fin Selon
+
+Fin
