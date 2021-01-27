@@ -15,10 +15,4 @@ Début
         pour i <- 1 à longeur(tab_nom[i])
     Fin Pour
 
-
-
-
-    
-
-
 Fin
