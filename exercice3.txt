@@ -11,7 +11,7 @@ Début
          
         Ecrire(“Entrer trois noms”)
         Lire(nom1, nom2, nom3)
-
+        
         Si (nom1 < nom2 et nom2 < nom3) Alors
             Ecrire (“Noms rangés dans l’ordre alphabétique ”)
         Sinon 
